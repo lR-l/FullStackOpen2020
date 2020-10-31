@@ -1,0 +1,16 @@
+.personDetails {
+  margin-left: 2em;
+  display: flex;
+}
+.personName {
+  flex: 1;
+  font-weight: bold;
+}
+
+.personNumber {
+  flex: 1;
+}
+
+.buttonContainer {
+  flex: 5;
+}
