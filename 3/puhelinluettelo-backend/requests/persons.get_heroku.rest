@@ -1,1 +1,1 @@
-GET http://puhelinluettelo-fs2020.herokuapp.com HTTP/1.1
+GET http://puhelinluettelo-fs2020.herokuapp.com/api/persons/ HTTP/1.1
