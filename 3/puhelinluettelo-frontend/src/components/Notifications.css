@@ -1,0 +1,11 @@
+.notification {
+  display: flex;
+  margin: 2em;
+  justify-content: flex-start;
+}
+
+.message {
+  border: 0.5em solid;
+  border-radius: 0.2em;
+  padding: 0 5em;
+}

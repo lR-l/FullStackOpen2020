@@ -1,0 +1,16 @@
+### Add person
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Dot",
+    "number": "1241-2352-252"
+}
+
+### Add person with missing data
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    
+}

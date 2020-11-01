@@ -17,3 +17,8 @@
 - 2.1 - 2.5: kurssitiedot
 - 2.6 - 2.11, 2.15 - 2.20 puhelinluettelo
 - 2.12 - 2.14: maiden tiedot
+
+## 3
+
+- 3.1 - 3.8 puhelinluettelo backend (2h)
+- 3.9 puhelinluettelo frontend + puhelinluettelo backend (local) (1h)
