@@ -35,7 +35,6 @@ app.use(
 );
 app.use(cors());
 
-const PORT = 3001;
 let persons = [
   {
     name: "Arto Hellas",
@@ -100,6 +99,8 @@ app.delete("/api/persons/:id", (req, res) => {
   persons = persons.filter((person) => person.id !== id);
   res.status(204).end();
 });
+
+const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
