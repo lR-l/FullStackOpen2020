@@ -28,7 +28,7 @@ const App = () => {
     setStatusMessage({ message, isError });
     setTimeout(() => {
       setStatusMessage({ message: null, isError: false });
-    }, 3000);
+    }, 5000);
   };
 
   const addName = (event) => {
@@ -58,7 +58,7 @@ const App = () => {
             setNewNumber("");
             showStatusMessage(`${targetPerson.name}'s phonenumber was updated successfully`, false);
           })
-          .catch((error) => showStatusMessage(`Unable to update ${targetPerson.name}'s phonenumber`, true));
+          .catch((error) => showStatusMessage(`Unable to update ${targetPerson.name}'s phonenumber (${error.response.data.error})`, true));
       }
     } else {
       PersonServices.addPerson({ name: newName, number: newNumber })
@@ -68,7 +68,9 @@ const App = () => {
           setNewNumber("");
           showStatusMessage(`${newName} added`, false);
         })
-        .catch((error) => showStatusMessage(`Unable to add ${newName}`, true));
+        .catch((error) => {
+          showStatusMessage(`Unable to add ${newName} (${error.response.data.error})`, true);
+        });
     }
   };
 
@@ -79,10 +81,7 @@ const App = () => {
           setPersons(persons.filter((person) => person.id !== id));
           showStatusMessage(`${name} deleted`, false);
         })
-        .catch((error) => {
-          console.log(error);
-          showStatusMessage(`Unable to delete ${name}`, true);
-        });
+        .catch((error) => showStatusMessage(`Unable to delete ${name} (${error.response.data.error})`, true));
     }
   };
 

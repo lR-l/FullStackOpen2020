@@ -20,5 +20,4 @@
 
 ## 3
 
-- 3.1 - 3.8 puhelinluettelo backend (2h)
-- 3.9 puhelinluettelo frontend + puhelinluettelo backend (local) (2h)
+- 3.1 - 3.22 puhelinluettelo-frontend / puhelinluettelo-backend
