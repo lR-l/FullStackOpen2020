@@ -21,3 +21,10 @@
 ## 3
 
 - 3.1 - 3.22 puhelinluettelo-frontend / puhelinluettelo-backend
+
+## 4
+
+- 4.1 - 4.2 blogilista
+- 4.2 - 4.7 apufunktioita ja yksikkötestejä (blogilista)
+- 4.8 - 4.12 blogilistan testit
+- 4.13 - 4.22 blogilistan laajennus

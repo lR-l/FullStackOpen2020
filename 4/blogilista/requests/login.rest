@@ -1,0 +1,45 @@
+### Login
+POST http://localhost:3003/api/login HTTP/1.1
+content-type: application/json
+
+{
+    "user": "hw!",
+    "pwd": "al0h4!"
+}
+
+### Login (Wrong username)
+POST http://localhost:3003/api/login HTTP/1.1
+content-type: application/json
+
+{
+    "user": "HöpöHöpö",
+    "pwd": "al0h4!"
+}
+
+### Login (Wrong password)
+POST http://localhost:3003/api/login HTTP/1.1
+content-type: application/json
+
+{
+    "user": "hw!",
+    "pwd": "al0h4"
+}
+
+
+### Login (Missing data)
+POST http://localhost:3003/api/login HTTP/1.1
+content-type: application/json
+
+{
+    
+}
+
+### Login 2
+POST http://localhost:3003/api/login HTTP/1.1
+content-type: application/json
+
+{
+    "user": "admin",
+    "pwd": "admin"
+}
+

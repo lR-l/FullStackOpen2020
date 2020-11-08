@@ -1,0 +1,47 @@
+### Add user
+POST http://localhost:3003/api/users/ HTTP/1.1
+content-type: application/json
+
+{
+    "username": "hw!",
+    "password": "al0h4!",
+    "name": "Hello World"
+}
+
+### Add user (missing data)
+POST http://localhost:3003/api/users/ HTTP/1.1
+content-type: application/json
+
+{
+    
+}
+
+### Add user (invalid data)
+POST http://localhost:3003/api/users/ HTTP/1.1
+content-type: application/json
+
+{
+    "username": "Me",
+    "password": "!",
+    "name": "Hello World"
+}
+
+### Add user (invalid username)
+POST http://localhost:3003/api/users/ HTTP/1.1
+content-type: application/json
+
+{
+    "username": "Me",
+    "password": "!53453sfsdf",
+    "name": "Hello World"
+}
+
+### Add user 2
+POST http://localhost:3003/api/users/ HTTP/1.1
+content-type: application/json
+
+{
+    "username": "admin",
+    "password": "admin",
+    "name": "Admin"
+}
