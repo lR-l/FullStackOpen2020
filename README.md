@@ -28,3 +28,9 @@
 - 4.2 - 4.7 apufunktioita ja yksikkötestejä (blogilista)
 - 4.8 - 4.12 blogilistan testit
 - 4.13 - 4.22 blogilistan laajennus
+
+## 5
+
+- 5.1 - 5.12 blogilistan frontend
+- 5.13 - 5.16 blogilistan testit
+- 5.17 - 5.22 blogilistan end to end -testit

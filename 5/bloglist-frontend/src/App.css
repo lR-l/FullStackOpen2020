@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.formRowContainer {
+  margin: 0.5em 0em;
+}
+
+.formInputText {
+  margin-right: 1em;
+}
+
+.errorMessage {
+  margin: 1em;
+  display: inline-block;
+  padding: 1em;
+  border: 0.2em solid #000;
+  background: linear-gradient(90deg, rgba(122, 0, 0, 1) 0%, rgba(186, 45, 45, 1) 46%, rgba(255, 0, 0, 1) 100%);
+  color: #fff;
+}
+
+.infoMessage {
+  margin: 1em;
+  display: inline-block;
+  background-color: #f56a6a;
+  padding: 1em;
+  border: 0.2em solid #000;
+  background: linear-gradient(90deg, rgba(4, 122, 0, 1) 0%, rgba(85, 186, 45, 1) 46%, rgba(0, 255, 102, 1) 100%);
+}
+
+.welcomeText {
+  margin-bottom: 1em;
+  font-weight: bold;
+  display: block;
+}
+
+.togglableContainer {
+  display: inline-block;
+  padding: 1em;
+  margin: 1em;
+  border: 0.2em solid #000;
+}
+
+.togglableCancelButton {
+  margin-top: 1em;
+  display: block;
+}
+
+.logoutButton {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.togglableShowButton {
+  display: block;
+  margin-bottom: 1em;
+}
