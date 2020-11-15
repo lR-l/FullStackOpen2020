@@ -34,3 +34,12 @@
 - 5.1 - 5.12 blogilistan frontend
 - 5.13 - 5.16 blogilistan testit
 - 5.17 - 5.22 blogilistan end to end -testit
+
+## 6
+
+- 6.1 - 6.2 unicafe revisited
+- 6.3 - 6.10 anekdootit
+- 6.11 - 6.12 paremmat anekdootit
+- 6.13 - 6.18 anekdootit ja backend
+- 6.19 - 6.20 anekdootit ja connect
+- 6.21 anekdootit
