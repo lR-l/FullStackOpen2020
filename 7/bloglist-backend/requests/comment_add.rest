@@ -1,0 +1,8 @@
+### Add comment to blog "React for dummies the Dummy"
+POST http://localhost:3003/api/blogs/5fa93bef6f4edd1ba0aaca69/comments HTTP/1.1
+Content-Type: application/json
+Authorization:  bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imh3ISIsImlkIjoiNWZhN2NlNGYyMjQzYWIyYjUwMTJhOGRkIiwiaWF0IjoxNjA0ODM4ODQzfQ.MgUlQ8xqxWVA64StMtc3bV-fDM-13KsC5nP9mz95bEk
+
+{
+    "text": "This comment is for blog 'React for dummies the Dummy'"
+}

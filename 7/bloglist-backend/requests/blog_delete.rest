@@ -1,0 +1,11 @@
+### Delete blog (user1)
+DELETE http://localhost:3003/api/blogs/5fa7f41f68ed0707748d5e2a HTTP/1.1
+Content-Type: application/json
+Authorization:  bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imh3ISIsImlkIjoiNWZhN2NlNGYyMjQzYWIyYjUwMTJhOGRkIiwiaWF0IjoxNjA0ODM4ODQzfQ.MgUlQ8xqxWVA64StMtc3bV-fDM-13KsC5nP9mz95bEk
+
+### Delete blog (user2)
+
+DELETE http://localhost:3003/api/blogs/5fa7f41f68ed0707748d5e2a HTTP/1.1
+Content-Type: application/json
+Authorization:  bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWQiOiI1ZmE3ZjQ1NzY4ZWQwNzA3NzQ4ZDVlMmIiLCJpYXQiOjE2MDQ4NDI2MjB9.xll5vzG9-E1evxdxuwfp-HHAxRqVMPl5i4kqN-VKmj4
+

@@ -1,0 +1,35 @@
+### Add blog 1
+POST http://localhost:3003/api/blogs/ HTTP/1.1
+Content-Type: application/json
+Authorization:  bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imh3ISIsImlkIjoiNWZhN2NlNGYyMjQzYWIyYjUwMTJhOGRkIiwiaWF0IjoxNjA0ODM4ODQzfQ.MgUlQ8xqxWVA64StMtc3bV-fDM-13KsC5nP9mz95bEk
+
+{
+    "title": "8-bit gaming and you vol",
+    "author": "The Ancient One",
+    "url": "http://urlnotfound404.com",
+    "likes": 1
+}
+
+### Add blog (Missing token)
+POST http://localhost:3003/api/blogs/ HTTP/1.1
+Content-Type:  application/json
+
+{
+    "title": "10001 ways to succeed",
+    "author": "Master Zen",
+    "url": "http://over9000.com",
+    "likes": 9001
+}
+
+
+### Add blog (Invalid token)
+POST http://localhost:3003/api/blogs/ HTTP/1.1
+Content-Type: application/json
+Authorization:  bearer QzYWIyYjUwMTJhOGRkIiwiaWF0IjoxNjA0ODM4ODQzfQ
+
+{
+    "title": "8-bit gaming and you",
+    "author": "The Ancient One",
+    "url": "http://urlnotfound404.com",
+    "likes": 1
+}

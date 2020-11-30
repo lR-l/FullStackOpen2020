@@ -43,3 +43,11 @@
 - 6.13 - 6.18 anekdootit ja backend
 - 6.19 - 6.20 anekdootit ja connect
 - 6.21 anekdootit
+
+## 7
+
+- 7.1 - 7.3 routed anecdotes
+- 7.4 - 7.6 anekdoottisovellus ja hookit
+- 7.7 country hook
+- 7.8 ultimate hooks
+- 7.9 - 7.20 blogilistan laajennus
