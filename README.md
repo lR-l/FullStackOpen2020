@@ -51,3 +51,9 @@
 - 7.7 country hook
 - 7.8 ultimate hooks
 - 7.9 - 7.20 blogilistan laajennus
+
+## 8
+
+- 8.1 - 8.7: library-backend
+- 8.8 - 8.12: library-frontend
+- 8.9 - 8.26: library-backed with database & GraphQL
