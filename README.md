@@ -57,3 +57,12 @@
 - 8.1 - 8.7: library-backend
 - 8.8 - 8.12: library-frontend
 - 8.9 - 8.26: library-backed with database & GraphQL
+
+## 9
+
+- 9.1 - 9.3 Body mass index & Exercise calculator
+- 9.4 - 9.5 Node server & WebBMI
+- 9.6 - 9.7 Eslint && WebExercises
+- 9.8 - 9.13 Patentior-backend
+- 9.14 - 9.15 Courseinfo React/Typescript
+- 9.16 - 9.27 Patentior fullstack
